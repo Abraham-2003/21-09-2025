@@ -280,7 +280,7 @@ body {
   animation-delay: 3.5s;
 }
 .flower__grass {
-  --c: #aaa815;
+  --c: #76aa15;
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
