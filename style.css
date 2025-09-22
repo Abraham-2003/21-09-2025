@@ -12,7 +12,7 @@
 
 body {
   display: flex;
-  align-items: flex-end;
+  align-items: center; /* ya no pegado al fondo */
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
@@ -34,6 +34,7 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.7);
+  margin-top: 200px; /* mueve hacia abajo desde el centro */
 }
 
 .flower {
